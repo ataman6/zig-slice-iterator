@@ -1,1 +1,2 @@
-# zig-slice-iterator
+# Usage
+Should be obvious
