@@ -51,7 +51,6 @@ pub fn slice_to_element_pointer(T: type) type {
     if(info.Pointer.size == .One and cinfo == .Array) {
         new_info.Pointer.size = .One;
         new_info.Pointer.child = cinfo.Array.child;
-        new_info.Pointer.sentinel = cinfo.Array.sentinel;
     } else {
         new_info.Pointer.size = .One;
     }
